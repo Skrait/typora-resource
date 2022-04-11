@@ -1,0 +1,174 @@
+
+      <svg
+        width="350"
+        height="135"
+        viewBox="0 0 350 135"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #24292e;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #24292e }
+
+          
+    /* Animations */
+    @keyframes scaleInAnimation {
+      from {
+        transform: translate(-5px, 5px) scale(0);
+      }
+      to {
+        transform: translate(-5px, 5px) scale(1);
+      }
+    }
+    @keyframes fadeInAnimation {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
+        </style>
+
+        
+        <defs>
+          <linearGradient
+            id="gradient"
+            gradientTransform="rotate(45)"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0%" stop-color="#F7F7F7" />,<stop offset="33.333333333333336%" stop-color="#FFFFFF" />,<stop offset="66.66666666666667%" stop-color="#00FAFA" />,<stop offset="100%" stop-color="#696969" />
+          </linearGradient>
+        </defs>
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="349"
+          fill="url(#gradient)"
+          stroke-opacity="1"
+        />
+
+        
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 25)"
+        >
+          
+    <svg data-testid="lang-items" x="25">
+      
+    <mask id="rect-mask">
+      <rect x="0" y="0" width="300" height="8" fill="white" rx="5" />
+    </mask>
+    
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="0"
+          y="0"
+          width="159.68"
+          height="8"
+          fill="#f1e05a"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="159.68"
+          y="0"
+          width="49.75"
+          height="8"
+          fill="#e34c26"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="209.43"
+          y="0"
+          width="40.12"
+          height="8"
+          fill="#563d7c"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="249.55"
+          y="0"
+          width="32.67"
+          height="8"
+          fill="#b07219"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="282.22"
+          y="0"
+          width="17.79"
+          height="8"
+          fill="#3D6117"
+        />
+      
+
+    <g transform="translate(0, 25)">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
+    <g>
+      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        JavaScript 53.23%
+      </text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g>
+      <circle cx="5" cy="6" r="5" fill="#e34c26" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        HTML 16.58%
+      </text>
+    </g>
+  </g><g transform="translate(0, 50)">
+    <g>
+      <circle cx="5" cy="6" r="5" fill="#563d7c" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        CSS 13.37%
+      </text>
+    </g>
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
+    <g>
+      <circle cx="5" cy="6" r="5" fill="#b07219" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        Java 10.89%
+      </text>
+    </g>
+  </g><g transform="translate(0, 25)">
+    <g>
+      <circle cx="5" cy="6" r="5" fill="#3D6117" />
+      <text data-testid="lang-name" x="15" y="10" class='lang-name'>
+        TeX 5.93%
+      </text>
+    </g>
+  </g></g>
+    </g>
+  
+    </svg>
+  
+        </g>
+      </svg>
+    
